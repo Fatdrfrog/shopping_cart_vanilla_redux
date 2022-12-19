@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+
+
+    <!-- Cart -->
+    <div>
+      <h3>Your Cart</h3>
+      <div>{nodes}</div>
+      <p>Total: &#36;{total}</p>
+      <button onClick={onCheckoutClicked}
+        disabled={hasProducts ? '' : 'disabled'}>
+        Checkout
+      </button>
+    </div>
+
+  </body>
+</html>
