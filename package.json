@@ -1,0 +1,11 @@
+{
+  "name": "shopping_cart_vanilla_redux",
+  "version": "1.0.0",
+  "description": "Shopping Cart tutorial on VanillaJS and Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sake",
+  "license": "ISC"
+}
